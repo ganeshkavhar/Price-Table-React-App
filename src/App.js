@@ -4,20 +4,102 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="wrapper">
+    <div class="table basic">
+      <div class="price-section">
+        <div class="price-area">
+          <div class="inner-area">
+            <span class="text"></span>
+            <span class="price">1400</span>
+          </div>
+        </div>
+      </div>
+      <div class="package-name"></div>
+      <ul class="features">
+        <li>
+          <span class="list-name">One Selected Template</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">100% Responsive Design</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Credit Remove Permission</span>
+          <span class="icon cross"><i class="fas fa-times"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Lifetime Template Updates</span>
+          <span class="icon cross"><i class="fas fa-times"></i></span>
+        </li>
+      </ul>
+      <div class="btn"><button>Purchase</button></div>
+    </div>
+    <div class="table premium">
+      <div class="ribbon"><span>Recommend</span></div>
+      <div class="price-section">
+        <div class="price-area">
+          <div class="inner-area">
+            <span class="text"></span>
+            <span class="price">2400</span>
+          </div>
+        </div>
+      </div>
+      <div class="package-name"></div>
+      <ul class="features">
+        <li>
+          <span class="list-name">Five Existing Templates</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">100% Responsive Design</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Credit Remove Permission</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Lifetime Template Updates</span>
+          <span class="icon cross"><i class="fas fa-times"></i></span>
+        </li>
+      </ul>
+      <div class="btn"><button>Purchase</button></div>
+    </div>
+    <div class="table ultimate">
+      <div class="price-section">
+        <div class="price-area">
+          <div class="inner-area">
+            <span class="text"></span>
+            <span class="price">3399</span>
+          </div>
+        </div>
+      </div>
+      <div class="package-name"></div>
+      <ul class="features">
+        <li>
+          <span class="list-name">All Existing Templates</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">100% Responsive Design</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Credit Remove Permission</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Lifetime Template Updates</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+      </ul>
+      <div class="btn"><button>Purchase</button></div>
+    </div>
+  </div>
+
+  
+
     </div>
   );
 }
